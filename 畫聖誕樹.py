@@ -59,11 +59,11 @@ def 減少層數():
 視窗 = Tk()
 視窗.title("聖誕快樂")
 
-按鈕_加 = Button(視窗, text="-", command=減少層數)
-按鈕_減 = Button(視窗, text="+", command=增加層數)
+按鈕_減 = Button(視窗, text="-", command=減少層數)
+按鈕_加 = Button(視窗, text="+", command=增加層數)
 
-按鈕_加.pack(side = 'left')
 按鈕_減.pack(side = 'left')
+按鈕_加.pack(side = 'left')
 
 畫布 = Canvas(視窗, width = 畫布寬度, height = 畫布高度, bg = 背景顏色)
 
